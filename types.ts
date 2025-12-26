@@ -18,8 +18,8 @@ export interface CampaignBatch {
   createdAt: string;
 }
 
+// Removed apiKey field as per security and GenAI SDK guidelines.
 export interface AppConfig {
-  apiKey: string;
   telefonoContacto: string;
   emailComercial: string;
   fechaLimite: string;
